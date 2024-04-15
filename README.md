@@ -58,7 +58,7 @@ This project uses a simple Todo List application built with React. You can find 
 
 8. Open your browser and navigate to localhost:<NodePort-number>. Replace <NodePort-number> with the actual NodePort number noted from the previous step.
 
-For example, if the NodePort number is 32123, you would navigate to localhost:32123 in your browser.
+For example, if the NodePort number is 31402, you would navigate to localhost:31402 in your browser.
 
 This should open up your React Todo List application in the browser.
 
