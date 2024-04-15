@@ -62,6 +62,8 @@ For example, if the NodePort number is 32123, you would navigate to localhost:32
 
 This should open up your React Todo List application in the browser.
 
+![alt app](https://github.com/msm17b019/apica-devops/blob/master/img/app.png)
+
 ## References:
 
 - https://microk8s.io/
