@@ -47,13 +47,13 @@ This project uses a simple Todo List application built with React. You can find 
 6. Apply the manifest files from the microk8s directory:
 
     ```
-    mkctl apply -f microk8s/
+    microk8s kubectl apply -f microk8s/
     ```
 
 7. Check the NodePort assigned to the todo service. Note the NodePort number listed under the "PORT(S)" column.
 
     ```
-    mkctl get svc todo
+    microk8s kubectl get svc todo
     ```
 
 8. Open your browser and navigate to localhost:<NodePort-number>. Replace <NodePort-number> with the actual NodePort number noted from the previous step.
@@ -67,3 +67,4 @@ This should open up your React Todo List application in the browser.
 ## References:
 
 - https://microk8s.io/
+- https://docs.docker.com/engine/install/ubuntu/
